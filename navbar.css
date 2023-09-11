@@ -1,0 +1,165 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "poppins", sans-serif;
+}
+
+body {
+  background: #efefef;
+}
+.navbar {
+  background: #fff9f9;
+  height: 45px;
+  box-shadow: 0px 0.1px 2px 0px rgb(147, 141, 141);
+  display: flex;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+}
+.navbar-left {
+  display: flex;
+}
+
+.icon {
+  font-size: 35px;
+  margin-top: 5px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+form input {
+  border-radius: 20px;
+  /* height: 32px; */
+  padding: 8.5px;
+  margin-top: 7px;
+  font-size: 13px;
+  background: #efefef;
+  margin-left: -63px;
+  width: 150px;
+  outline: none;
+  border: none;
+}
+
+.search {
+  width: 90px;
+  background: #efefef;
+  height: 32px;
+  margin-left: 8px;
+  margin-top: 7px;
+  border-radius: 20px;
+}
+.search i {
+  margin-top: 9px;
+  margin-left: 14px;
+  font-size: 15px;
+  opacity: 0.5;
+}
+
+.mid-icons {
+  display: flex;
+  margin-left: 250px;
+  align-items: center;
+}
+.mid-icons i {
+  font-size: 20px;
+  padding: 9px 40px;
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+.mid-icons i:hover {
+  background-color: #efefef;
+  border-radius: 8px;
+}
+.navbar-right {
+  display: flex;
+  margin-right: 15px;
+  align-items: center;
+}
+.navbar-right i {
+  font-size: 17px;
+  padding: 9px 9px;
+  cursor: pointer;
+  background-color: #e7e7e7;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+
+.navbar-right i:hover {
+  background-color: #d8d7d7;
+}
+
+.profile img {
+  border-radius: 50%;
+  height: 36px;
+  width: 36px;
+  cursor: pointer;
+}
+.profile {
+  position: relative;
+}
+.profile::after {
+  content: "";
+  height: 7px;
+  width: 7px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  background: #41db51;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.sidebar {
+  display: flex;
+  justify-content: space-between;
+}
+.left-sidebar {
+  width: 280px;
+  margin-top: 10px;
+}
+
+.right-sidebar {
+  margin-top: 10px;
+  margin-right: 10px;
+
+  width: 300px;
+}
+
+.shortcut-links a,
+.shortcuts a {
+  text-decoration: none;
+  display: flex;
+  margin-top: 3px;
+  font-size: 14px;
+  padding: 7px 0px 7px 5px;
+  margin-left: 8px;
+  align-items: center;
+  color: black;
+}
+
+.shortcut-links a:hover,
+.shortcuts a:hover {
+  background-color: #d8d7d7;
+  border-radius: 10px;
+}
+
+.shortcut-links a img,
+.shortcuts a img {
+  height: 30px;
+  width: 32px;
+  border-radius: 50%;
+}
+
+.shortcut-links a p {
+  margin-left: 10px;
+}
+
+.horizontal-row {
+  border: 0px solid#dcdbdb;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.shortcuts nav {
+  margin-top: 10px;
+  margin-left: 15px;
+}
